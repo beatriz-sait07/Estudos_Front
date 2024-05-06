@@ -1,0 +1,55 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.play img{
+    width: 50px;
+    height: auto;
+}
+
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: #e39878ea;
+}
+
+main{
+    margin: 0 auto; /*centralizar a main*/
+    width: 980px;
+    position: relative;
+    
+}
+
+.play{
+    float:left; /*alinhamento a esquerda*/
+    width: 60%;
+}
+.redes-sociais img{
+    width: 80%;
+    height: auto;
+    margin-top: -5px;
+}
+
+.redes-sociais{
+    float: right; /*alinhamento a direita*/
+    width: 40%;
+    text-align: right;
+}
+
+.redes-sociais ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 3px;
+}
+
+.menu-func ul li {
+    float: left;
+    display: inline-block;
+    list-style: none;
+    margin: 0 3px;
+    padding: 15px;
+
+}
