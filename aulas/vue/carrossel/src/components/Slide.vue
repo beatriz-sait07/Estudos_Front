@@ -1,5 +1,5 @@
 <template>
-    <div class="slide">
+    <div class="slide-c">
         <Transition name="slide">
             <slot/>
         </Transition>
@@ -11,3 +11,11 @@
         name: 'SlideComponent'
     }
 </script>
+
+<style lang="css">
+
+
+/*
+width -> largura
+display: inline-flexbox; -> */
+</style>
