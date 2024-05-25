@@ -62,38 +62,16 @@ export default {
 <style lang="css">
 .cs-fundo {
   background-color: black;
-  margin-top: 280px; /* Ajuste conforme necessário */
-  padding: 20px;
+  margin-top: 290px; /* Ajuste conforme necessário */
+  position: flex;
+  display: inline-flexbox;
+
+  .carousel{
+    position: relative;
+
+  }
 }
 
-.carousel {
-  position: relative;
-}
 
-.navigate {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
 
-.seta {
-  cursor: pointer;
-}
-
-.loc-slide {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.loc-slide span {
-  cursor: pointer;
-  padding: 5px;
-}
-
-.loc-slide .active {
-  font-weight: bold;
-  color: white;
-}
 </style>

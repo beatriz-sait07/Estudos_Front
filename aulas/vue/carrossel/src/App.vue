@@ -14,7 +14,7 @@
 <script setup>
 import axios from "axios"
 
-axios.get('funcionarios')
+axios.get('funcionario')
   .then((response) => {
     console.log(response.data)
   })

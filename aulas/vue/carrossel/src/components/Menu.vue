@@ -65,7 +65,7 @@
 .menu-principal .redes-sociais ul li {
     display: inline-block;
     margin: 0 20px;
-    ;
+    
 }
 li:hover{
     transform: scale(1.5);
@@ -88,5 +88,7 @@ display -> define como o elemento é exibido (block ajuda a centralizar)
 padding -> preenchimento interno (cima/baixo - lado/outro)
 list-style -> remove a bolinha da lista
 hover-> efeito ao passar o mouse
+justify-content -> alinha os itens no container
+flex-start -> alinha os itens no inicio do container
 */
 </style>
