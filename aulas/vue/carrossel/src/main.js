@@ -1,6 +1,8 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
+import './views/HomeView.vue'
 import './plugins/axios.js'
+import './assets/css/main.css'
 
 createApp(App).use(router).mount('#app');

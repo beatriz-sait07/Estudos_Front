@@ -1,9 +1,9 @@
 <template>
-  <nav class="menu-p">
-    <Menu><p>teste</p></Menu>
-  </nav>
-  <div class="home">
-    <carousel class="carousel" v-slot="{ atualSlide }">
+  <div class="bg-blue-400 h-20 w-100 mt-0">
+    <Menu></Menu>
+  </div>
+  <div >
+    <carousel v-slot="{ atualSlide }">
       <slide v-for="(slide, index) in c_slides" :key="index">
         <div v-show="atualSlide === index + 1" class="slide-info">
           <img :src="getImagePath(slide)" alt="">
@@ -38,6 +38,6 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
+<style lang="css">
 
 </style>

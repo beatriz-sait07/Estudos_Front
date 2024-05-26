@@ -13,9 +13,4 @@
 </script>
 
 <style lang="css">
-
-
-/*
-width -> largura
-display: inline-flexbox; -> */
 </style>

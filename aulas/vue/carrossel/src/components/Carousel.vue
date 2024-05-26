@@ -60,18 +60,5 @@ export default {
 
 
 <style lang="css">
-.cs-fundo {
-  background-color: black;
-  margin-top: 290px; /* Ajuste conforme necessário */
-  position: flex;
-  display: inline-flexbox;
-
-  .carousel{
-    position: relative;
-
-  }
-}
-
-
 
 </style>
