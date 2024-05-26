@@ -1,22 +1,20 @@
 <template>
-  <div class="home">
-    <div class="cs-fundo">
-      <div class="carousel"> <!-- se digitar div. a classe que deseaja ela cria a div ja com a classe -->
-          <slot :atualSlide="atualSlide"/>
-          <div class="navigate">
-              <div class="seta esq">
-                  <i @click="antSlide" class="fa-solid fa-chevron-left"></i>
-                </div>
-                <div class="seta dir">
-                  <i @click="proxSlide" class="fa-solid fa-chevron-right"></i>
+  <div class="carrossel relative">
+    <div > <!-- se digitar div. a classe que deseaja ela cria a div ja com a classe -->
+        <slot :atualSlide="atualSlide"/>
+        <div class="relative flex items-center justify-between">
+            <div class="seta-esq absolute top-1/2 transform -translate-y-[35vh] left-0">
+                <i @click="antSlide" class="fa-solid fa-chevron-left cursor-pointer w-10 h-10 flex items-center justify-center bg-gray-200 hover:bg-[#5050eb7b] rounded-full"></i>
               </div>
-          </div>
-          <div class="loc-slide"> <!-- localização do slide -->
-            <span v-for="(slide, index) in deslizar" :key="index" :class="{active : index + 1 === atualSlide}">
-              {{ slide }}
-            </span>
-          </div>
-      </div>
+              <div class="seta-dir absolute top-1/2 transform -translate-y-[35vh]  right-0">
+                <i @click="proxSlide" class="fa-solid fa-chevron-right cursor-pointer w-10 h-10 flex items-center justify-center bg-gray-200 hover:bg-[#5050eb7b] rounded-full"></i>
+            </div>
+        </div>
+        <div> <!-- localização do slide -->
+          <span v-for="(slide, index) in deslizar" :key="index" :class="{active : index + 1 === atualSlide}">
+            {{ slide }}
+          </span>
+        </div>
     </div>
   </div>
 </template>
@@ -60,5 +58,8 @@ export default {
 
 
 <style lang="css">
-
+.carrossel{
+  @apply flex justify-center items-center h-screen mx-auto
+  /* responsivo,centraliza o conteiner, centraliza geral, define altura do conteiner, centraliza  */
+}
 </style>

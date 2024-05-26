@@ -33,18 +33,4 @@
 .list{
     @apply hover:bg-[#5050eb] rounded-full transition-all duration-300
 }
-
-
-/*
-overflow -> hidden tudo que ultrpassar ele, sera ocultado/escondido 
-background-color -> cor de fundo
-position -> define a posição do elemento
-margin-top -> distancia do topo
-display -> define como o elemento é exibido (block ajuda a centralizar)
-padding -> preenchimento interno (cima/baixo - lado/outro)
-list-style -> remove a bolinha da lista
-hover-> efeito ao passar o mouse
-justify-content -> alinha os itens no container
-flex-start -> alinha os itens no inicio do container
-*/
 </style>

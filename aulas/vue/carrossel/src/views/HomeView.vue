@@ -6,7 +6,7 @@
   </header>
   <body class="bg-gradient-to-t from-[#5050eb] to-[#b8b8eb] h-screen" > <!-- coloca o fundo gradiente -->
     <div>
-      <FuncionariosView><a href="./funcionarios.vue"></a></FuncionariosView>
+      <a href="./funcionarios.html">funcionarios</a>
       <sobreView></sobreView>
     </div>
     <div >
@@ -26,8 +26,7 @@ import { ref } from 'vue';
 import CarouselComponent from '@/components/Carousel.vue'
 import SlideComponent from '@/components/Slide.vue'
 import MenuComponent from '@/components/Menu.vue'
-import FuncionariosView from './funcionarios.vue'
-import SobreView from './sobre.vue'
+
 
 export default {
   name: 'HomeView',
