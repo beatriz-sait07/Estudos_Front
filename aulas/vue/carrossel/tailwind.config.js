@@ -18,7 +18,9 @@ module.exports = {
   },
   variants: {
     extend: {
-      colordiff: ['#'],
+      color: {
+        /*coloca aqui as cores costumizadas do projeto pra ficar mais facil de mexer */
+      }
     },
   },
   plugins: [],

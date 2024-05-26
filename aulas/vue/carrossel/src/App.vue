@@ -7,13 +7,13 @@
 </style>
 
 <script setup>
-import axios from "axios"
+// import axios from "axios"
 
-axios.get('funcionarios')
-  .then((response) => {
-    console.log(response.data)
-  })
-  .catch((error) => {
-    console.error(error)
-  })
+// axios.get('funcionarios')
+//   .then((response) => {
+//     console.log(response.data)
+//   })
+//   .catch((error) => {
+//     console.error(error)
+//   })
 </script>

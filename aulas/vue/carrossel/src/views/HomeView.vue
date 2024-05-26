@@ -6,8 +6,7 @@
   </header>
   <body class="bg-gradient-to-t from-[#5050eb] to-[#b8b8eb] h-screen" > <!-- coloca o fundo gradiente -->
     <div>
-      <a href="./funcionarios.html">funcionarios</a>
-      <sobreView></sobreView>
+      <router-link to="/funcionarios">Funcionários</router-link>
     </div>
     <div >
       <carousel v-slot="{ atualSlide }">
